@@ -1,0 +1,17 @@
+{
+  "name": "bitquery",
+  "version": "1.0.0",
+  "description": "A blockchain based Dapp where you can earn by answering questions set by others. You can upload your own questions as well. This Dapp guarantees anonymity and protection against intentional privacy breach.",
+  "homepage": "https://SamstyleGhost.github.io/Bitquery/client",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "cd client && npm run build",
+    "deploy": "cd client && gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
